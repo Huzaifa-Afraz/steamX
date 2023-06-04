@@ -1,0 +1,341 @@
+:root {
+    --primary-bg: #E50914;
+    --secondry-bg: #222222;
+    --primary-color: #E50914;
+    --black-color: #000;
+    --white-color: #ffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.primary-Btn{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 10px 44.66px 10px 43.34px;
+text-decoration: none;
+width: 177px;
+height: 41px;
+color: #fff;
+border: none;
+background: #E50914;
+border-radius: 50px;
+cursor: pointer;
+}
+#nav-above {
+    background-color: var(--primary-bg);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+#nav-above p {
+    color: var(--white-color);
+}
+
+nav {
+    background-color: var(--secondry-bg);
+    height: 119px;
+}
+
+nav a {
+    color: var(--white-color);
+}
+
+nav .active {
+    background-color: #333333;
+}
+
+.icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary-bg);
+    border-radius: 32px;
+}
+
+/*------------------ hero section-------------- */
+#heroSection{
+    background: url('./img/heroimg.png');
+    min-height: 482px;
+    max-height: max-content;
+    background-position: center;
+    background-size: cover;
+}
+.heroContent{
+    max-width: 792px;
+min-height: 381px;
+max-height: max-content;
+background: rgba(21, 19, 19, 0.12);
+padding: 16px;
+}
+.heroContent h1{
+    font-weight: 900;
+font-size: 36px;
+color: #FFFFFF;
+letter-spacing: -0.03em;
+text-transform: capitalize;
+}
+.heroContent h1 span{
+    color: var(--primary-color);
+}
+.heroContent ul li{
+    list-style: none;
+    font-weight: 500;
+font-size: 18px;
+line-height: 25px;
+padding: 5px 0;
+}
+
+/*----------------------- trustedBy area------------- */
+.TrustedBy {
+   margin-top: 1rem;
+}
+.TrustedBy .TrustedCOntent{
+    /* height: 222px; */
+/* border: 1px solid red; */
+}
+.TrustedBy .TrustedCOntent h2{
+    padding: 10px 0;
+    font-weight: 400;
+font-size: 30px;
+line-height: 34px;
+padding:7px 7px;
+/* display: flex;
+align-items: center;
+justify-content: center; */
+text-align: center;
+/* height: 40px; */
+background-color: var(--primary-bg);
+color: #fff;
+}
+.TrustedBy .TrustedCOntent .boxes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.TrustedBy .TrustedCOntent .boxes .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    
+    width: 235px;
+    height: 92px;
+    
+    background: #E50914;
+    border-radius: 10px;
+}
+.mainclr{
+    color: var(--primary-color);
+}
+#AboutUs{
+    padding: 1.6rem 0;
+min-height: 300px;
+max-height: max-content;
+background: rgba(217, 217, 217, 0.2);
+}
+
+
+
+/* ----------------services----------------------------- */
+
+
+
+#Services{
+    padding: 1.6rem 0;
+    background-color: var(--primary-bg);
+    min-height: 963px;
+    max-height: max-content;
+}
+#Services .boxes .row{
+    width: 75%;
+}
+#Services .boxes .box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    /* min-width: fit-content; */
+    width: 196px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+#Services .boxes .box p{
+    font-weight: 700;
+font-size: 20px;
+line-height: 125%;
+display: flex;
+align-items: center;
+text-align: center;
+color: #000000;
+}
+
+
+
+/* ------------ */
+.card{
+    width: 350px;
+min-height: 265.33px;
+max-height: fit-content;
+
+
+background: #FFFFFF;
+border: 1px solid #F9F7F7;
+box-shadow: 5px 1px 15px #F3EEEE;
+}
+.card p{
+    font-weight: 400;
+font-size: 14px;
+line-height: 22px;
+color: #707070;
+}
+aside img{
+    position: absolute;
+    right: 0;
+    top: 15%;
+    width: 250px;
+}
+.Services-para{
+    font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+color: #707070;
+}
+
+
+
+/* -------------------testimonial---------------------*/
+#testimonial{
+    background: url("./img/testimonial.png");
+    height: 633px;
+    max-height: fit-content;
+    background-position: center;
+    background-size: cover;
+}
+
+.testimMain .testimonialCard{
+    width: 604px;
+min-height: 295px;
+max-height: max-content;
+background: #FFFFFF;
+border-radius: 10px;
+margin-top: 2rem;
+
+}
+.testimMain .testimonialCard .clientImg{
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    left: 50%;
+    /* right: 50%; */
+    top: 0;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+
+}
+.carousel-indicators{
+    top: 102%;
+}
+
+
+/* ------------------------Quote------------------ */
+.Quote{
+min-height: 253px;
+max-height: max-content;
+padding: 1rem 0;
+background: #FFFFFF;
+}
+
+
+/* ---------------------------footer----------------- */
+
+footer{
+    background: linear-gradient(0deg, #2F2F30, #2F2F30);
+}
+
+
+
+
+/* ------------------------Get a quote----------------- */
+.form-select{
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: var(--bs-body-color);
+    background-color: var(--bs-body-bg);
+    background-clip: padding-box;
+    border: var(--bs-border-width) solid var(--bs-border-color);
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: var(--bs-border-radius);
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.Secondary-btn{
+    width: 248px;
+height: 47px;
+background: #E50914;
+border-radius: 5px;
+border: none;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 23px;
+letter-spacing: -0.04em;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #FFFFFF;
+}
+
+
+/*-------------------------------- map section---------------- */
+.map iframe{
+    height: 500px;
+    width: 100%;
+}
+@media screen and (max-width:992px) {
+
+    nav a {
+        color: black !important;
+    }
+
+    .line {
+        padding-top: 10px;
+        border-bottom: 1px solid #E4E4E4;
+        margin-bottom: 5px;
+    }
+
+    nav .active {
+        background-color: transparent;
+    }
+
+
+    /* -------------services--------------- */
+    #Services .boxes .row{
+        width: 100%;
+    }
+
+    /* ---------------------map section------------- */
+    .map iframe{
+        height: 200px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="nav-above" class="d-none d-lg-flex">
+      <div class="container">
+        <div
+          class="d-none d-lg-flex justify-content-between align-items-center"
+        >
+          <div class="left d-flex align-items-center">
+            <img src="./img/phone.svg" alt="phone" />
+            <p class="mb-0 ms-2">24/7 Customer Support 01483346886</p>
+          </div>
+          <div class="right">
+            <a href=""><img class="pe-4" src="./img/fb.svg" alt="" /></a>
+            <a href=""><img src="./img/twitter.svg" alt="" /></a>
+            <a href=""><img class="ps-4" src="./img/insta.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <nav class="navbar navbar-expand-lg">
+      <div class="container">
+        <a href="#" class="navbar-brand"
+          ><img src="./img/logo.svg" alt="" srcset=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#navbarOffcanvas"
+          aria-controls="navbarOffcanvas"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon">
+            <img src="./img/menu.svg" alt="" />
+          </span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          id="navbarOffcanvas"
+          tabindex="-1"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <button
+              type="button"
+              class="btn-close btn-close-black text-reset"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <div class="navbar-nav justify-content-end flex-grow-1">
+              <a class="nav-item nav-link active" aria-current="page" href="./index.html"
+                >Home</a
+              >
+              <span class="line"></span>
+              <a class="nav-item nav-link d-none d-lg-block" href="#AboutUs"
+                >About Us</a
+              >
+              <a class="nav-item nav-link d-none d-lg-block" href="#Services"
+                >Our Services</a
+              >
+              <a class="nav-item nav-link me-xl-5" href="#">Contact Us</a>
+              <span class="line"></span>
+              <div
+                class="d-flex align-items-cent flex-column flex-lg-row ms-xl-5"
+              >
+                <div class="d-flex align-items-center mt-5 mt-lg-0">
+                  <span class="icon"><img src="./img/phone.svg" alt="" /></span>
+                  <p class="mb-0 ps-2 pe-4">01483346886</p>
+                </div>
+                <div class="d-flex align-items-center mt-3 mt-lg-0">
+                  <span class="icon"><img src="./img/mail.svg" alt="" /></span>
+                  <p class="mb-0 ps-2">info@steamxcarpet.com</p>
+                </div>
+              </div>
+              <div
+                class="mobile-icons d-flex justify-content-betwee d-lg-none mt-4"
+              >
+                <a href=""
+                  ><img class="me-4" src="./img/fb-black.svg" alt=""
+                /></a>
+                <a href=""
+                  ><img class="me-4" src="./img/twitter-black.svg" alt=""
+                /></a>
+                <a href=""><img src="./img/insta-black.svg" alt="" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!---------------------------- section--------------------- -->
+    <section id="heroSection">
+      <div class="container pt-5">
+        <div class="heroContent">
+          <h1>
+            Best Domestic And Commercial
+            <span class="fs-1">Cleaning Services </span>
+          </h1>
+          <ul class="p-0">
+            <li class="text-light">
+              <img class="pe-3" src="./img/list-img.png" alt="" />General
+              cleaning
+            </li>
+            <li class="text-light">
+              <img class="pe-3" src="./img/list-img.png" alt="" />Deep cleaning
+            </li>
+            <li class="text-light">
+              <img class="pe-3" src="./img/list-img.png" alt="" />End of tenancy
+              cleaning
+            </li>
+            <li class="text-light">
+              <img class="pe-3" src="./img/list-img.png" alt="" />Home/Office
+              Removals and Clearance
+            </li>
+          </ul>
+          <button class="primary-Btn">Contact Us</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="inputsSection">
+      <div class="container">
+        <h2 class="text-center my-5 fw-bold">Get a Quote</h2>
+        <form action="" class="form-group py-3">
+          <!-- first row -->
+          <div class="d-md-flex gap-0 gap-md-3 flex-wrap flex-md-nowrap">
+            <div class="w-100 my-2">
+              <label for="name" class="form-label fw-bold">Name</label>
+              <input
+                type="text"
+                id="name"
+                class="form-control w-100"
+                placeholder="Name"
+              />
+            </div>
+            <div class="w-100 my-2">
+              <label for="Email" class="form-label fw-bold">Email</label>
+              <input
+                type="text"
+                id="Email"
+                class="form-control"
+                placeholder="Email"
+              />
+            </div>
+          </div>
+          <!-- second row -->
+          <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+            <div class="w-100 my-2">
+              <label for="Contact" class="form-label fw-bold"
+                >Contact No.</label
+              >
+              <input
+                type="text"
+                id="Contact"
+                class="form-control w-100"
+                placeholder="Contact No."
+              />
+            </div>
+            <div class="w-100 my-2">
+              <label for="Postcode" class="form-label fw-bold">Postcode</label>
+              <input
+                type="text"
+                id="Postcode"
+                class="form-control"
+                placeholder="Postcode"
+              />
+            </div>
+          </div>
+          <!-- 3rd row -->
+          <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+            <div class="w-100 my-2">
+              <label for="Number-of-Bathrooms" class="form-label fw-bold"
+                >Number of Bathrooms</label
+              >
+              <select name="" id="Number-of-Bathrooms" class="form-select">
+                <option value="">Number of Bathrooms</option>
+              </select>
+            </div>
+            <div class="w-100 my-2">
+              <label for="Number-of-Bedrooms" class="form-label fw-bold"
+                >Number of Bedrooms</label
+              >
+              <select name="" id="Number-of-Bedrooms" class="form-select">
+                <option value="">Number of Bedrooms</option>
+              </select>
+            </div>
+          </div>
+          <!-- 4th row -->
+          <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+            <div class="w-100 my-2">
+              <label for="Living-Room" class="form-label fw-bold"
+                >Living Room</label
+              >
+              <select name="" id="Living-Room" class="form-select">
+                <option value="">Living Room</option>
+              </select>
+            </div>
+            <div class="w-100 my-2">
+              <label for="Property-Type" class="form-label fw-bold"
+                >Property Type</label
+              >
+              <select name="" id="Property-Type" class="form-select">
+                <option value="">Property Type</option>
+              </select>
+            </div>
+          </div>
+          <!-- 5th row -->
+          <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+            <div class="w-100 my-2">
+              <label
+                for="Professional-Carpet-Cleaning"
+                class="form-label fw-bold"
+                >Professional Carpet Cleaning</label
+              >
+              <select
+                name=""
+                id="Professional-Carpet-Cleaning"
+                class="form-select"
+              >
+                <option value="">Professional Carpet Cleaning</option>
+              </select>
+            </div>
+
+          <div class="w-100 my-2">
+            <label for="Additional-Areas" class="form-label fw-bold"
+              >Additional Areas</label
+            >
+            <div class="mainCheckBox d-flex justify-content-between flex-wrap w-75">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Dining-room"
+                />
+                <label class="form-check-label" for="Dining-room">
+                  Dining room
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Unity-room"
+                />
+                <label class="form-check-label" for="Unity-room">
+                  Unity room
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Playroom"
+                />
+                <label class="form-check-label" for="Playroom">
+                  Playroom
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Study"
+                />
+                <label class="form-check-label" for="Study"> Study </label>
+              </div>
+            </div>
+            <div class="mainCheckBox d-flex justify-content-between flex-wrap w-75">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Dining-room"
+                />
+                <label class="form-check-label" for="Dining-room">
+                  Dining room
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Unity-room"
+                />
+                <label class="form-check-label" for="Unity-room">
+                  Unity room
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Playroom"
+                />
+                <label class="form-check-label" for="Playroom">
+                  Playroom
+                </label>
+              </div>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Study"
+                />
+                <label class="form-check-label" for="Study"> Study </label>
+              </div>
+            </div>
+            <div class="mainCheckBox d-flex justify-content-between flex-wrap w-75">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="Dining-room"
+                />
+                <label class="form-check-label" for="Dining-room">
+                  Dining room
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+                  <!-- 6th row -->
+                  <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+                    <div class="w-100 my-2">
+                      <label for="Upholstery-Cleaning" class="form-label fw-bold"
+                        >Upholstery Cleaning</label
+                      >
+                      <select name="" id="Upholstery-Cleaning" class="form-select">
+                        <option value="">Yes</option>
+                      </select>
+                    </div>
+                    <div class="w-100 my-2">
+                      <label for="Furnished" class="form-label fw-bold"
+                        >Furnished/Unfurnished/Part-Furnished</label
+                      >
+                      <select name="" id="Furnished" class="form-select">
+                        <option value="">Furnished</option>
+                      </select>
+                    </div>
+                  </div>
+                  <!-- 7th row -->
+                  <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+                    <div class="w-100 my-2">
+                      <label for="Pets-in-Property" class="form-label fw-bold"
+                        >Pets in Property</label
+                      >
+                      <select name="" id="Pets-in-Property" class="form-select">
+                        <option value="">Yes</option>
+                      </select>
+                    </div>
+                    <div class="w-100 my-2">
+                      <label for="Preferred-Date" class="form-label fw-bold"
+                        >Preferred Date</label>
+                      <input type="date" name="" id="Preferred-Date" class="form-control">
+                    </div>
+                  </div>
+                  <!-- 7th row -->
+                  <div class="d-flex gap-0 gap-md-3 flex-wrap flex-lg-nowrap">
+                    <div class="w-100 my-2">
+                      <label for="Pets-in-Property" class="form-label fw-bold"
+                        >Pets in Property</label
+                      >
+                      <textarea name="" id="" cols="30" rows="5" class="w-100"></textarea>
+                    </div>
+                    
+                  </div>
+                  <button class="Secondary-btn">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <!--------------------- map section------------- -->
+    <section class="map py-3">
+        <div class="container">
+            <div class="row flex-wrap">
+              <h2 class="text-center my-5 fw-bold">Our Location</h2>
+                <div class=" col-12 col-lg">
+<!--Google Maps-->
+                  <iframe id="gmap_canvas" src="https://maps.google.com/maps?q=california&t=&z=10&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+   
+</div>
+<div class="text col-12  col-lg">
+  <div class="icons pt-lg-4">
+  <div class="d-flex align-items-center mt-5 mt-lg-0">
+    <span class="icon"><img src="./img/phone.svg" alt="" /></span>
+    <p class="mb-0 ps-2 pe-4 fw-bold">01483346886</p>
+  </div>
+  <div class="d-flex align-items-center mt-3 ">
+    <span class="icon"><img src="./img/mail.svg" alt="" /></span>
+    <p class="mb-0 ps-2 fw-bold">info@steamxcarpet.com</p>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+    </section>
+
+    <!-- -------------------------footer------------------ -->
+    <footer>
+      <div class="container">
+        <div class="row gap-5 justify-content-around py-5">
+          <div class="col-4">
+            <!-- <img class="mb-4 card-img" src="./img/Logo.svg" alt=""> -->
+            <a href="#" class="navbar-brand"
+              ><img src="./img/logo.svg" alt="" srcset=""
+            /></a>
+            <p class="text-light">
+              SteamX is the leading professional cleaning & Removal service
+              provider in the UK, offering high-quality and reliable services to
+              all. With our team of experienced, expert cleaners, you can rest
+              assured that your premises will look sparkling clean and
+              presentable for your staff and customers alike.
+            </p>
+          </div>
+          <div class="col">
+            <h2 class="text-light fw-bold mb-4">Useful Links</h2>
+            <ul class=" ps-0">
+              <li class="list-group-item text-light"><a class="nav-item nav-link py-2" href="">Home</a> </li>
+              <li class="list-group-item text-light"><a class="nav-item nav-link py-2" href=""> About Us</a></li>
+              <li class="list-group-item text-light"><a class="nav-item nav-link py-2" href="">Our Services</a></li>
+              <li class="list-group-item text-light"><a class="nav-item nav-link py-2" href="">Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <h2 class="text-light fw-bold mb-4">Contact Us</h2>
+            <div class="d-flex align-items-center mt-5 mt-lg-0">
+              <span class="icon"><img src="./img/phone.svg" alt="" /></span>
+              <p class="mb-0 ps-2 pe-4 text-light">01483346886</p>
+            </div>
+            <div class="d-flex align-items-center mt-3">
+              <span class="icon"><img src="./img/mail.svg" alt="" /></span>
+              <p class="mb-0 ps-2 text-light">info@steamxcarpet.com</p>
+            </div>
+            <div class="icons mt-3">
+              <a href=""> <img src="./img/fb.svg" alt="" /></a>
+              <a href="">
+                <img class="px-4" src="./img/twitter.svg" alt=""
+              /></a>
+              <a href=""> <img src="./img/insta.svg" alt="" /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
